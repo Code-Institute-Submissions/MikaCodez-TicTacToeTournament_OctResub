@@ -16,39 +16,34 @@
 
 <body>
     <h1 class="heading">
-        <img class="logo" src="assets/images/logo.png" alt="logo"> TicTacToe Tournament!</h1>
+        <img class="logo" src="assets/images/nindog.JPG" alt="logo"> TicTacToe Tournament!</h1>
 
-    <div class="game-area">
-        <div class="controls-area">
-            <button data-type="addition" class="btn btn--big btn--green">
-                <i class="fas fa-plus"></i>
-            </button>
-            <button data-type="subtract" class="btn btn--big btn--blue">
-                <i class="fas fa-minus"></i>
-            </button>
-            <button data-type="multiply" class="btn btn--big btn--orange">
-                <i class="fas fa-times"></i>
-            </button>
-            <button data-type="division" class="btn btn--big btn--red">
-                <i class="fas fa-divide"></i>
-            </button>
-            <div class="question-area">
-                <span id="operand1">0</span>
-                <span id="operator">x</span>
-                <span id="operand2">0</span>
-                <span>=</span>
-                <p class="answer-message">Enter Answer:</p>
-                <input id="answer-box" type="number">
+    <div class="gamegrid-area">
+        <div class="grid-square"></div>
+        <div class="grid-square"></div>
+        <div class="grid-square"></div>
+        <div class="grid-square"></div>
+        <div class="grid-square"></div>
+        <div class="grid-square"></div>
+        <div class="grid-square"></div>
+        <div class="grid-square"></div>
+        <div class="grid-square"></div>
             </div>
-            <button data-type="submit" class="btn btn--gray">Submit Answer</button>
-        </div>
-
+ 
+    <div class="instructions">
+        Instructions:
+•The object of Tic Tac Toe is to get three in a row. You play on a three by three game board.
+• The first player is known as X and the second is O. Players alternate placing Xs and Os on the game board until either oppent has three in a row or all nine squares are filled.
+• X always goes first, and in the event that no one has three in a row, the stalemate is called a cat game.
     </div>
 
     <div class="score-area">
         <p class="scores">PLAYER:<span id="score">0</span></p>
         <p class="scores">COMPUTER:<span id="incorrect">0</span></p>
     </div>
+    <section class="controls">
+        <button id="restart"></button>
+        </section>
 
     <script src="assets/js/script.js"></script>
 </body>
