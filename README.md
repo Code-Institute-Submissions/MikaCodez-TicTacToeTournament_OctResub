@@ -15,5 +15,9 @@ As a user, As I play the game I expect to see my score recorded as long as I pla
 Have instructions detailing to myself and other users on how to play the game.
 
 ## Wireframes
-Wireframes were created with [Figma](https://www.figma.com/)
+Wireframes were created with Balsamiq.
+
+
+![TTCTWireframe](https://user-images.githubusercontent.com/65243328/148089603-3b54d051-68cf-4867-bed5-8b403946fd86.JPG)
+
 
