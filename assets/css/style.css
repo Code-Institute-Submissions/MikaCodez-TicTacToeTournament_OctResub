@@ -7,7 +7,21 @@
 }
 
 body {
-    background-color: azure;
+    background-color: #1c2925;
+}
+
+.heading {
+    text-align: center;
+    font-size: 60px;
+}
+
+.instructions {
+    text-align: center;
+    font-size: 20px;
+}
+
+.instructions2 {
+    color: #BB2222;
 }
 
 .gamegrid-area {
@@ -24,7 +38,7 @@ grid-template-columns: 33% 33% 33%;
     align-items: center;
     justify-content: center;
     align-items: center;
-    border: 1px white;
+    border: 5px white;
     min-width: 100px;
     min-height: 100px;
     cursor: pointer;
@@ -35,12 +49,9 @@ grid-template-columns: 33% 33% 33%;
     display: none;
 }
 
-.playerx {
-    color: black;
-}
-
-.computer {
-    color: B41616;
+.scores {
+    color: #BB2222;
+    font-size: 25px;
 }
 
 #restart {
