@@ -1,4 +1,7 @@
-window.addEventListener('DOMContentLoaded', () => {
+// Wait for the DOM to finish loading before running the game
+// Get the button elements and add event listeners to them
+
+document.addEventListener('DOMContentLoaded', function()  {
     const tiles = Array.from(document.querySelectorAll('.tile'));
     const playerDisplay = document.querySelector('.display-player');
     const resetButton = document.querySelector('#reset');

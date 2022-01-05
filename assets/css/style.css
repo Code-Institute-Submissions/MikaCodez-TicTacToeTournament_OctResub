@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #1c2925;
+    background-color: #FFFFF0;
 }
 
 .heading {
@@ -24,7 +24,7 @@ body {
     color: #BB2222;
 }
 
-.gamegrid-area {
+#gamegrid-area {
 display: grid;
 margin: 0 auto;
 max-width: 300px;
@@ -33,7 +33,7 @@ grid-template-columns: 33% 33% 33%;
 
 }
 
-.grid-square {
+#grid-square {
     display: flex;
     align-items: center;
     justify-content: center;
