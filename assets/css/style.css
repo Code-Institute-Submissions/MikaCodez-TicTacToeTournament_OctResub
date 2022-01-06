@@ -24,7 +24,7 @@ body {
     color: #BB2222;
 }
 
-#gamegrid-area {
+#gamegridArea {
 display: grid;
 margin: 0 auto;
 max-width: 300px;
@@ -33,7 +33,7 @@ grid-template-columns: 33% 33% 33%;
 
 }
 
-#grid-square {
+#square {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,6 +44,11 @@ grid-template-columns: 33% 33% 33%;
     cursor: pointer;
 }
 
+.square p{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
 
 .minimize {
     display: none;
@@ -51,6 +56,11 @@ grid-template-columns: 33% 33% 33%;
 
 .scores {
     color: #BB2222;
+    font-size: 25px;
+}
+
+#gameOver {
+    display: none;
     font-size: 25px;
 }
 
