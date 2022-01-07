@@ -5,6 +5,7 @@ const container = document.getElementById("gamegridArea");
 const squareArray = [];
 let nextMove = "X";
 const resetButton = document.querySelector('#restart');
+const square = Array.from(document.getElementById("square")); 
 
 //determine if game is over
 
@@ -12,7 +13,7 @@ function gameOver(message) {
   document.getElementById("winner").innerHTML = message;
   container.style.display = "none";
   document.getElementById("gameOver").style.display = "block";
-}
+} 
 
 //determine if game is a tie
 function isDraw() {
@@ -95,4 +96,13 @@ for (let index = 0; index < 9; index++) {
   container.appendChild(div);
   squareArray.push(square);
 }
+function resetBoard(){
+  document.getElementById("restart").innerHTML = message;
+  square.forEach((square) => {
+    box.innerText = "";
+    
+  });
+  document.getElementsById("gamegridArea").setAttribute("style", "display: flex;");
+} 
+
 resetButton.addEventListener('click', resetBoard);
