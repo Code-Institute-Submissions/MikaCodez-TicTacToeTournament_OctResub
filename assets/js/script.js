@@ -4,6 +4,7 @@
 const container = document.getElementById("gamegridArea");
 const squareArray = [];
 let nextMove = "X";
+const resetButton = document.querySelector('#restart');
 
 //determine if game is over
 
@@ -20,6 +21,23 @@ function isDraw() {
     if (state == "") shouldReturn = false;
   });
   return shouldReturn;
+}
+
+/**
+ * Gets the current score from the DOM and increments it by 1
+ */
+ function incrementScore() {
+
+  let oldScore = parseInt(document.getElementById("score").innerText);
+  document.getElementById("score").innerText = ++oldScore;
+
+}
+/**
+* Gets the current tally of incorrect answers from the DOM and increments it by 1
+*/
+function incrementWrongAnswer() {
+  let oldScore = parseInt(document.getElementById("incorrect").innerText);
+  document.getElementById("incorrect").innerText = ++oldScore;
 }
 
 //determine who won the game
@@ -77,3 +95,4 @@ for (let index = 0; index < 9; index++) {
   container.appendChild(div);
   squareArray.push(square);
 }
+resetButton.addEventListener('click', resetBoard);
