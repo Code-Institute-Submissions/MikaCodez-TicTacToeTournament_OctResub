@@ -40,6 +40,9 @@ Wireframes were created with Balsamiq.
 •Instructions: This gives a guide for the user on how to execute the game on the front-end web page.
 •Score Board: This tracks the Wins/Losses of the users game play on the front-end web page.
 
+![winner](https://user-images.githubusercontent.com/65243328/148540049-134b5def-b70f-43e7-a59e-4626d2d3d5a2.JPG)
+
+
 ### Future development of the website and new features
 •Difficulty setting: Higher difficulty setting against Computer to be implemented to make it more challenging for users.
 
@@ -102,6 +105,6 @@ Image used from
 
 ## Code
 Code was learned from [Code Institute](www.codeinstitute.net) and [FreeCodeCamp](https://www.freecodecamp.org/learn/) 
-• Code used as a template from [JavaScript Academy](https://www.youtube.com/watch?v=B3pmT7Cpi24&ab_channel=JavaScriptAcademy)
-• Code used as guideline from [JavaScript Academy](https://github.com/javascriptacademy-stash/tic-tac-toe/blob/master/index.js)
+• Code used as a template from [Coding with Mike](https://www.youtube.com/watch?v=5ulX2VY0yeE&ab_channel=CodingWithMike)
+• Code used as guideline from [Coding with Mike](https://github.com/miketona/Vanilla-JavaScript-Tic-Tac-Toe-Game/blob/main/main.js)
 
