@@ -12,7 +12,11 @@ body {
 
 .heading {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
+}
+
+.logo {
+    size: 1rem;
 }
 
 .instructions {
@@ -73,6 +77,15 @@ body {
     background-color: burlywood;
     color: crimson;
     
+}
+
+.restart__link {
+    color: #64968c;
+    text-decoration: none;
+}
+
+.restart__link:hover {
+    text-decoration: underline;
 }
 
 /* --------- Media queries */
