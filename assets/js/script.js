@@ -34,7 +34,7 @@ function isDraw() {
 
 }
 /**
-* Gets the current tally of incorrect answers from the DOM and increments it by 1
+* Gets the current score from the wins and losses answers from the DOM and increments it by 1
 */
 function incrementWrongAnswer() {
   let oldScore = parseInt(document.getElementById("incorrect").innerText);

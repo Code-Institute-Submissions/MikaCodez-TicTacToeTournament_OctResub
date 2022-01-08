@@ -66,8 +66,12 @@ body {
 
 #gameOver {
     display: none;
-    font-size: 25px;
+    font-size: 55px;
 }
+#break {
+    margin-top: 5px;
+}
+
 
 #restart {
     padding: 10px;
