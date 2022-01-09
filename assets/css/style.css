@@ -124,6 +124,7 @@ body {
 
     .score-area {
         width: 100%;
+        margin-left: 300px;
     }
 
     .scores {
@@ -131,10 +132,7 @@ body {
         display: block;
         padding: 5px;
     }
-    .score-area {
-        margin-left: 250px;
-    }
-
+    
     .heading {
         font-size: 2rem;
     }
@@ -167,6 +165,6 @@ body {
         margin-left: 2rem;
     }
     .score-area {
-        margin-left: 250px;
+        margin-left: 130px;
     }
 }
