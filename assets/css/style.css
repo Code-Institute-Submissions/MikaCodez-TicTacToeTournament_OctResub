@@ -65,7 +65,7 @@ body {
 }
 
 .score-area {
-    margin-left: 250px;
+    margin-left: 550px;
 }
 
 #gameOver {
@@ -124,7 +124,7 @@ body {
 
     .score-area {
         width: 100%;
-        margin-left: 300px;
+        margin-left: 200px;
     }
 
     .scores {
