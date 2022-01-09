@@ -67,7 +67,7 @@ body {
 #gameOver {
     display: none;
     font-size: 55px;
-    margin-left: 30px;
+    margin-left: 250px;
 }
 #break {
     margin-top: 60px;
@@ -137,7 +137,7 @@ body {
     #gameOver {
         display: none;
         font-size: 2rem;
-        margin-left: 30px;
+        margin-left: 2rem;
     }
 }
 
@@ -157,6 +157,6 @@ body {
     #gameOver {
         display: none;
         font-size: 2rem;
-        margin-left: 30px;
+        margin-left: 2rem;
     }
 }
