@@ -67,9 +67,10 @@ body {
 #gameOver {
     display: none;
     font-size: 55px;
+    margin-left: 30px;
 }
 #break {
-    margin-top: 5px;
+    margin-top: 60px;
 }
 
 
@@ -130,6 +131,14 @@ body {
     .heading {
         font-size: 2rem;
     }
+    #break {
+        margin-top: 60px;
+    }
+    #gameOver {
+        display: none;
+        font-size: 2rem;
+        margin-left: 30px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -142,4 +151,12 @@ body {
     #restart {
         margin: 10px 10px;
     } 
+    #break {
+        margin-top: 60px;
+    }
+    #gameOver {
+        display: none;
+        font-size: 2rem;
+        margin-left: 30px;
+    }
 }
