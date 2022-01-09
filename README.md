@@ -1,9 +1,10 @@
 # TicTacToeTournament
 A front-end web page Javascript based game styled with minimal HTML and CSS for players to engage in against the computer in their browser.
 
-![TTCT](https://user-images.githubusercontent.com/65243328/148083909-34027fae-776e-4bea-8c71-8b0dffe753fd.JPG)
+![TTCTupdated](https://user-images.githubusercontent.com/65243328/148682506-bab689c4-3328-45fa-95c9-f0b1ab6664c9.JPG)
 
-Deployed site here:
+
+[Deployed site here](https://mikacodez.github.io/TicTacToeTournament/)
 
 # UX
 ## Users
@@ -75,6 +76,10 @@ Used to deploy [icons](https://fontawesome.com/) throughout pages.
 Testing was achieved through Google Chrome Lighthouse and W3C Markup Validator for HTML and CSS
 Testing also through Javascript Validator 
 
+![lighthouse testing](https://user-images.githubusercontent.com/65243328/148682564-5ed8ddc7-6b41-4e85-9a21-83343842979c.JPG)
+
+
+
 ## User Testing
 •As a user I want to test and see as I click on the different squares of the grid other squares on the grid
 will automatically react and respond. Creating a cohesive back and forth gameplay with the computer.
@@ -107,4 +112,5 @@ Image used from
 Code was learned from [Code Institute](www.codeinstitute.net) and [FreeCodeCamp](https://www.freecodecamp.org/learn/) 
 • Code used as a template from [Coding with Mike](https://www.youtube.com/watch?v=5ulX2VY0yeE&ab_channel=CodingWithMike)
 • Code used as guideline from [Coding with Mike](https://github.com/miketona/Vanilla-JavaScript-Tic-Tac-Toe-Game/blob/main/main.js)
+• Some Code used from [Love Maths project](https://github.com/MikaCodez/love-maths/blob/main/assets/js/script.js)
 
