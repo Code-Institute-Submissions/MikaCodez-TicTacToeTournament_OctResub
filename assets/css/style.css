@@ -64,6 +64,10 @@ body {
     font-size: 25px;
 }
 
+.score-area {
+    margin-left: 250px;
+}
+
 #gameOver {
     display: none;
     font-size: 55px;
@@ -127,6 +131,9 @@ body {
         display: block;
         padding: 5px;
     }
+    .score-area {
+        margin-left: 250px;
+    }
 
     .heading {
         font-size: 2rem;
@@ -158,5 +165,8 @@ body {
         display: none;
         font-size: 2rem;
         margin-left: 2rem;
+    }
+    .score-area {
+        margin-left: 250px;
     }
 }
