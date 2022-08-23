@@ -4,7 +4,7 @@
 const container = document.getElementById("gamegridArea");
 const squareArray = [];
 let nextMove = "X";
-const resetButton = document.querySelector("restart");
+const restartButton = document.getElementById("restartButton");
 const square = Array.from(document.getElementsByClassName("square")); 
 
 //determine if game is over
@@ -105,4 +105,4 @@ function resetBoard(){
   document.getElementsById("gamegridArea").setAttribute("style", "display: flex;");
 } 
 
-resetButton.addEventListener('click', resetBoard);
+restartButton.addEventListener('click', resetBoard);
