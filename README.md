@@ -11,9 +11,13 @@ A front-end web page Javascript based game styled with minimal HTML and CSS for 
 The user should be able to interact with this game on a basic level by clicking and competing against the computer and making an outcome of either
 Win/Lose/Tie.
 
+This should be an aenjoyable experience for any user that has played Tic tac Toe before.
+
 As a user, As I play the game I expect to see my score recorded as long as I play the game.
 
 Have instructions detailing to myself and other users on how to play the game.
+
+The Value of the game will be the instructions teaching the users how to play and a fun solo game they can interact with in their spare time.
 
 ## Wireframes
 Wireframes were created with Balsamiq.
@@ -90,9 +94,17 @@ will automatically react and respond. Creating a cohesive back and forth gamepla
 
 # Deployment
 In order to deploy site to Github I had to do the following:
-• Select Settings at the top of the Repository page.
-• Click on Pages button on the navigation for GitHub Pages.
-• Click on source and select Master Branch to commit action of the page to.
+
+To deploy a copy of the project:
+•Open the GitHub repository at https://github.com/MikaCodez/TicTacToeTournament
+•Click the "Code" button and clone the repository locally.
+•Set the remote repository in your local clone with the command: git remote set-url origin http://github.com/YOU/YOUR_REPO
+•In the GitHub repository, click on the Settings button.
+•Click the Pages tab on the left-hand menu.
+•Select "Main" from the Source drop down list.
+•Click Save.
+•GitHub will build and publish the site and provide a link to the public facing address.
+Note that this can take up to 5 minutes to fully deploy.
 Link below:
 [Github Pages](https://mikacodez.github.io/TicTacToeTournament
 /)
@@ -102,7 +114,7 @@ Link below:
 ## Content
 •Readme template sampled off of [Codeinstitute Readme.MD template.](https://github.com/Code-Institute-Solutions/readme-template)
 •Readme template used as a guideline and also sampled off of [Mellow Tè Readme.MD](https://github.com/MikaCodez/mellowte/edit/main/README.md)
-• CSS Grid used from [W3Schools](https://www.w3schools.com/css/css_grid.asp)
+• • CSS Grid used from [W3Schools](https://www.w3schools.com/css/css_grid.asp)
 
 ## Media
 Image used from
