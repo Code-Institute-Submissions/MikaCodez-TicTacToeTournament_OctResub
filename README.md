@@ -82,6 +82,16 @@ Testing also through Javascript Validator
 
 ![lighthouse testing](https://user-images.githubusercontent.com/65243328/148682564-5ed8ddc7-6b41-4e85-9a21-83343842979c.JPG)
 
+### W3C NuHTML Checker
+Testing with W3C checker has brought back zero errors and one warning in regards to h2 and h6 elements.
+![image](https://user-images.githubusercontent.com/65243328/195338259-b11ad8cb-8a08-4ffa-a8e0-401eb36f29ee.png)
+
+### JShint Checker
+testing has brought back 1 warning in JShint
+
+![image](https://user-images.githubusercontent.com/65243328/195338411-62b2d88d-89de-4b2e-a752-1b3c19c55973.png)
+
+
 
 
 ## User Testing
