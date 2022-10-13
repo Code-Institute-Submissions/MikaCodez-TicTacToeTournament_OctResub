@@ -107,14 +107,23 @@ In order to deploy site to Github I had to do the following:
 
 To deploy a copy of the project:
 •Open the GitHub repository at https://github.com/MikaCodez/TicTacToeTournament
+
 •Click the "Code" button and clone the repository locally.
+
 •Set the remote repository in your local clone with the command: git remote set-url origin http://github.com/YOU/YOUR_REPO
+
 •In the GitHub repository, click on the Settings button.
+
 •Click the Pages tab on the left-hand menu.
+
 •Select "Main" from the Source drop down list.
+
 •Click Save.
+
 •GitHub will build and publish the site and provide a link to the public facing address.
+
 Note that this can take up to 5 minutes to fully deploy.
+
 Link below:
 [Github Pages](https://mikacodez.github.io/TicTacToeTournament
 /)
