@@ -11,9 +11,9 @@ A front-end web page Javascript based game styled with minimal HTML and CSS for 
 The user should be able to interact with this game on a basic level by clicking and competing against the computer and making an outcome of either
 Win/Lose/Tie.
 
-This should be an aenjoyable experience for any user that has played Tic tac Toe before.
+This should be an enjoyable experience for any user that has played Tic tac Toe before.
 
-As a user, As I play the game I expect to see my score recorded as long as I play the game.
+As a user, As I play the game I expect to see my wins recorded as long as I play the game.
 
 Have instructions detailing to myself and other users on how to play the game.
 
