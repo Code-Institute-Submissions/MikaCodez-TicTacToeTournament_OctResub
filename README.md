@@ -86,10 +86,16 @@ Testing also through Javascript Validator
 Testing with W3C checker has brought back zero errors and one warning in regards to h2 and h6 elements.
 ![image](https://user-images.githubusercontent.com/65243328/195338259-b11ad8cb-8a08-4ffa-a8e0-401eb36f29ee.png)
 
+### W3C CSS Validation checker
+Testing with CSS validator came back positive with no errors.
+![image](https://user-images.githubusercontent.com/65243328/195667898-bf744f18-1620-414c-95b8-a9eb3c34140d.png)
+
+
 ### JShint Checker
 testing has brought back 1 warning in JShint
 
-![image](https://user-images.githubusercontent.com/65243328/195338411-62b2d88d-89de-4b2e-a752-1b3c19c55973.png)
+![image](https://user-images.githubusercontent.com/65243328/195666937-2d16405c-4699-4781-b779-d11f40a32985.png)
+
 
 
 
